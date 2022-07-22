@@ -1,5 +1,7 @@
 
-## Gnosis Safe contracts for usd-sub-net
+## Gnosis Safe contracts deployment for usd-sub-net
+
+The Contract code is from [safe-contracts](https://github.com/safe-global/safe-contracts) which has an LGPL license
 
 ### Deployment
 
@@ -10,3 +12,4 @@
 ```shell
 forge script script/SafeContractDeployment.s.sol:SafeContractDeployment --rpc-url $YOUR_RPC_URL --private-key $PKEY --broadcast
 ```
+
